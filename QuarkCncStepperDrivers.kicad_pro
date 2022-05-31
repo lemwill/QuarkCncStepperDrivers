@@ -356,11 +356,12 @@
       "PersonnalFootprintLibrary"
     ],
     "pinned_symbol_libs": [
-      "PersonnalSymbolLibrary"
+      "PersonnalSymbolLibrary",
+      "QuarkCncStepperDrivers"
     ]
   },
   "meta": {
-    "filename": "CNCStepperDrivers.kicad_pro",
+    "filename": "QuarkCncStepperDrivers.kicad_pro",
     "version": 1
   },
   "net_settings": {

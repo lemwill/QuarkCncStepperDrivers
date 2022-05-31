@@ -29,5 +29,6 @@ fp-info-cache
 
 Fabrication
 output
+jlcpcb
 *.step
 *auto_saved_files*
