@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.508
         }
       },
@@ -55,18 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|100280000|144145000|6a45a341-b0f7-4ec9-9d45-44409bbf59df|ad0afc42-584d-444a-a5d4-943137df2635",
-        "silk_over_copper|100330000|106105000|6a45a341-b0f7-4ec9-9d45-44409bbf59df|65e9886f-4f8d-4096-9de8-45ee91299df8",
-        "silk_over_copper|102880000|145415000|6a45a341-b0f7-4ec9-9d45-44409bbf59df|27d3534d-16f5-4ccf-9b16-2c5732c06b4d",
-        "silk_over_copper|118582754|143785000|12be2217-b989-4bb0-95c1-9e3059b23565|0b48832c-967a-4d9c-9ff0-8f636ee92499",
-        "silk_over_copper|133350000|103505000|6a45a341-b0f7-4ec9-9d45-44409bbf59df|cc782bfb-9181-4dad-9653-e0d1f500238f",
-        "silk_over_copper|134182754|143527500|22324f6a-9b4a-4f5c-baf2-7d1c3b95a742|bcd24616-81ad-48a7-8dac-37efabbf7e08",
-        "silk_over_copper|135890000|142815000|6a45a341-b0f7-4ec9-9d45-44409bbf59df|cb063ba2-ba75-4d81-b6d1-01cb2c49d8e0",
-        "silk_over_copper|136182754|143527500|22324f6a-9b4a-4f5c-baf2-7d1c3b95a742|5492e0be-bf9d-4ff9-8b26-2cc28c02793e",
-        "silk_overlap|135182754|142500000|11f4f930-a4b7-4fc7-87d1-891c8fa291dd|11fb1f96-0c88-461b-b4bc-8453aa7f6519",
-        "silk_overlap|135182754|143970000|f3a3d0c6-be2d-4c93-b428-aa659e061424|11fb1f96-0c88-461b-b4bc-8453aa7f6519"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -365,7 +354,7 @@
     ]
   },
   "meta": {
-    "filename": "GrblHal2000Drivers.kicad_pro",
+    "filename": "QuarkCncStepperDrivers.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -399,7 +388,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "CNCStepperDriversV2.step",
+      "step": "CNCStepperDriversV3.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
